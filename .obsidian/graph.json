@@ -1,0 +1,65 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"UW/CSE 351\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14048348
+      }
+    },
+    {
+      "query": "path:Leetcode ",
+      "color": {
+        "a": 1,
+        "rgb": 14275090
+      }
+    },
+    {
+      "query": "path:\"I2/Intro Course\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 11392604
+      }
+    },
+    {
+      "query": "path:\"I2/Technical Notes\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "path:\"SWECC Notes\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 6422474
+      }
+    },
+    {
+      "query": "path:\"Books/Database Design and Implementation\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.40295817057292,
+  "lineSizeMultiplier": 1.848974609375,
+  "collapse-forces": false,
+  "centerStrength": 0.522658757172032,
+  "repelStrength": 17.8177574637752,
+  "linkStrength": 0.989254108723135,
+  "linkDistance": 192,
+  "scale": 0.7211105066799918,
+  "close": true
+}

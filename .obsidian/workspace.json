@@ -1,0 +1,267 @@
+{
+  "main": {
+    "id": "595a1da707734aaa",
+    "type": "split",
+    "children": [
+      {
+        "id": "d025fa39bdbe47fc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8e929251f4eb1187",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/Database Design and Implementation/Chapter 1 - Database Systems.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chapter 1 - Database Systems"
+            }
+          },
+          {
+            "id": "a44eb0d53bb52807",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Amazon Interview Preparation/Questions for Interviewer.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Questions for Interviewer"
+            }
+          },
+          {
+            "id": "ff1a74a92487747a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Amazon Interview Preparation/Questions for Interviewer.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Questions for Interviewer"
+            }
+          },
+          {
+            "id": "3559d3e71a3b4d88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/Database Design and Implementation/Notes Directory.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Notes Directory"
+            }
+          },
+          {
+            "id": "c47bb6beda6194fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/Database Design and Implementation/Chapter 5 - Transaction Management.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chapter 5 - Transaction Management"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "49bd3703c5eb9ade",
+    "type": "split",
+    "children": [
+      {
+        "id": "53e22ea3264476f6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d080ac152d3a2683",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f04a72deabc897f0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9d154d131a94dd2d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "a8c44cef8e5e9e41",
+    "type": "split",
+    "children": [
+      {
+        "id": "a3e1f899b84e5ecf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ebbc1ef169dd6883",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "d02b8b94db29791f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "7a7917aa199cb683",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e25747bb094d4db5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "c47bb6beda6194fe",
+  "lastOpenFiles": [
+    "Books/Database Design and Implementation/Chapter 4 - Memory Management.md",
+    "Books/Database Design and Implementation/Chapter 5 - Transaction Management.md",
+    "Amazon Interview Preparation/Questions for Interviewer.md",
+    "Amazon Interview Preparation/LP Questions.md",
+    "Books/Database Design and Implementation/Notes Directory.md",
+    "Books/Database Design and Implementation/Chapter 3 - Disk and File Management.md",
+    "Pasted image 20241226201647.png",
+    "Books/Database Design and Implementation/Chapter 1 - Database Systems.md",
+    "UW/CSE 351/Lecture 23 - Processes I.md",
+    "Books/Database Design and Implementation",
+    "Books",
+    "UW/CSE 351/Lecture 22 - Memory Allocation III.md",
+    "UW/CSE 351/Lecture 24 - Processes 2.md",
+    "UW/CSE 351/Lecture 25 - Virtual Memory II.md",
+    "UW/CSE 351/Lecture 21 - Memory Allocation 2.md",
+    "UW/CSE 351/Lecture 20 - Memory Allocation.md",
+    "UW/CSE 351/Lecture 19 - Memory and Caches IV.md",
+    "UW/CSE 351/Lecture 18 - Memory and Caches III.md",
+    "UW/CSE 351/Lecture 17 - Memory and Caches 2.md",
+    "UW/CSE 351/Lecture 16 - Memory and Caches I.md",
+    "UW/CSE 351/Lecture 15 - Buffer Overflow.md",
+    "UW/CSE 351/Lecture 6 - Floating Point I.md",
+    "UW/CSE 351/Lecture 7 - x86-64 Programming I.md",
+    "UW/CSE 351/Lecture 5 - Integers II.md",
+    "UW/CSE 351/Lecture 4 - Data III, Integers I.md",
+    "UW/CSE 351/Lecture 3 - Memory and Data 2.md",
+    "UW/CSE 351/Lecture 26 - Virtual Memory III.md",
+    "Amazon Interview Preparation",
+    "I2/Technical Notes/Technical Course Notes.md",
+    "I2/Intro Course/Meeting 6 - Reinforcement Learning.md",
+    "Spice AI Interview Preparation",
+    "Pasted image 20241105203730.png",
+    "Pasted image 20241103221549.png",
+    "Pasted image 20241102202526.png",
+    "SWECC Notes",
+    "Pasted image 20241027134759.png",
+    "Pasted image 20241027134745.png",
+    "Pasted image 20241026162929.png",
+    "Pasted image 20241026162923.png",
+    "Pasted image 20241026161848.png",
+    "Pasted image 20241025150745.png",
+    "Leetcode/Two Pointers",
+    "Leetcode/Trees",
+    "Leetcode/Linked List",
+    "I2/Technical Notes",
+    "Leetcode/Stack"
+  ]
+}
