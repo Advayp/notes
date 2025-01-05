@@ -1,8 +1,8 @@
 {
-  "cssTheme": "Things",
+  "cssTheme": "",
   "accentColor": "",
-  "theme": "moonstone",
+  "theme": "obsidian",
   "baseFontSize": 19,
-  "textFontFamily": "Arial",
-  "interfaceFontFamily": "Inter"
+  "textFontFamily": "",
+  "interfaceFontFamily": ""
 }

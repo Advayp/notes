@@ -64,3 +64,67 @@
 ### Non-quiescent Checkpointing
 - Instead of waiting for all transactions to stop, note which ones are running when the checkpoint is made
 - When the recovery manager reaches this, it can determine if it should continue going through the log record
+
+### Data Item Granularity
+- Unit of logging is called a recovery data item
+- Size of a data item is called its granularity
+
+## Concurrency Manager
+- Responsible for the correct execution of concurrent transactions
+
+### Serializable Schedules
+- History of a transaction is the series of database actions made by that transaction
+	- Database action: read or write of a disk block
+- When multiple transactions are running concurrently, the database engine interleaves their execution, which is called a schedule
+- Serial Schedule: transactions run back-to-back and are not interleaved
+- Non-serial schedule is serializable if it produces the same result as some serial schedule
+	- Serial schedules are correct, so serializable schedules must also be correct
+- A schedule is correct if and only if it is serializable 
+
+### The Lock Table
+- Locking can postpone the execution of a transaction to ensure serializability 
+- Every block has two kinds of lock
+	- Shared lock: Other transactions are only allowed to have shared locks on it
+	- Exclusive lock: No other transaction is allowed to have any kind of lock on it
+- Lock table: database engine component responsible for granting locks to transactions
+- Transactions don't explicitly lock or unlock blocks
+	- Getting obtains a shared lock
+	- Setting obtains an exclusive lock
+	- Commit unlocks all its locks
+- Locks ensure that transactions are serializable 
+
+### Serializability Problem
+- Once a transaction unblocks a block, it can no longer lock another block without impacting serializability 
+	- This is because in between the unlock and lock another transaction can commit, which means that these two transactions aren't serializable
+- To solve this, we use two-phase locking
+	- 1st phase: acquiring all necessary locks
+	- 2nd phase: releasing all acquired locks
+
+### Deadlock
+- When there's a cycle in the wait-for graph, the graph that shows which transactions a particular transaction is waiting on 
+- When dealing with a deadlock, you can rollback the transaction whose lock request caused the cycle
+- In certain situations though, deadlock may occur with an acyclic waits-for graph
+- Detecting a cycle is also expensive
+- Simpler strategies exist, but have an increasing number of 
+
+
+### File-level Conflicts and Phantoms
+- At the file-level, the methods `size` and `append` also conflict
+- Problem with two transactions (T1 which appends, T2 which reads size):
+	- T2 will need to obtain an slock on blocks that don't exist yet, since T1 hasn't appended them
+	- This is fixed by allowing transactions to lock the end-of-file marker (xlock for append, slock for size)
+
+### Multiversion Locking
+- Conflicts can occur between read and update transactions
+- This works by storing multiple version of each block
+	- Each version of a block contains a timestamp with the last commit time of  a transaction
+	- When a read-only transaction requests a value from a block, the concurrency manager uses the version of the block that was most recently committed
+- Multiversion locking ensures that read-only transactions do not need to obtain locks and never have to wait
+
+### Data Item Granularity
+- Unit of locking is called a concurrency data item
+- Principles of concurrency aren't affected by the granularity of the data item used
+- Smaller granularity enables more concurrency, but also requires more locks
+- Data record granularity:
+	- Handled by the record manager
+	- Main problem is with phantoms, since data records can get inserted into existing blocks
