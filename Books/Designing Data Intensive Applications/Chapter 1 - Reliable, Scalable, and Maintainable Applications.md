@@ -1,0 +1,61 @@
+## Reliability
+- Performs as expected
+- Handles mistakes or unexpected uses
+- Prevents unauthorized access/use
+- Continuing to work correctly even when things go wrong
+- **Faults**: Things that can go. A good system is fault-tolerant
+	- When one component deviates from what it's supposed to do
+- Goal is to prevent faults from causing system-wide failures
+- There's a move toward systems that can handle losses of entire machines
+	- Incorporate software into the solution
+- When dealing with large errors:
+	- Look into assumptions/interactions
+	- Prioritize isolation
+- Some good qualities to have
+	- Designed in a way that minimizes opportunities for error
+	- Decouples the places where people make the most mistakes from where they cause the most failures
+	- Test at all levels, from unit to integration tests
+	- All quick recovery from errors
+	- Set up detailed monitoring
+	- Implement good management practices and training
+
+## Scalability
+- Ability to cope with increased load
+- Load is typically described by load parameters, which are defined by you
+- To deduce performance, investigate what happens when the load increases
+	- Given an increased load parameter and constant system resources, how does the performance of the system change?
+	- When you increase a load parameter, how much do you need to increase system resources to keep performance unchanged?
+- **Throughput**: The number of records we can process per second, or the total time it takes to run a job on a dataset of a certain size
+- **Response Time**: Time between client sending a request and getting a response
+- **Latency**: How long the request waits before being handled
+- Response time should be thought of as a distribution rather than a single number
+	- Use percentiles to evaluate
+	- Median (p50 or 50% percentile)
+	- Regarding outliers, look at higher percentiles (p95, p99, p999)
+	- These higher percentiles are known as **tail latencies**
+- Percentiles are often used in service level objectives (SLOs) and service level agreements (SLAs)
+	- These are contracts that define the expected performance and availability of a service
+- Queuing delays are also a big consideration
+	- A small number of slow requests can hold up processing (known as head-of-line blocking)
+- Vertical Scaling: increasing resources
+- Horizontal Scaling: distributing the load across multiple smaller machines
+- Elastic scaling: Resources are added as needed based on traffic
+- When designing this, it's important to think about when operations will be common and which ones will be rare
+
+## Maintainability 
+- Operability
+	- Make it easy for operations teams to keep the system running smoothly
+	- Some good qualities:
+		- Providing visibility into the runtime behavior, good monitoring
+		- Automation/integration
+		- Distributing load/operations across multiple machines
+		- Good docs
+		- Self healing
+		- Minimizing surprises
+- Simplicity: Managing complexity
+	- Key is removing accidental complexity, or complexity that arises out of implementation, not necessity 
+	- Abstractions are pretty useful for this
+- Evolvability: Making change easy
+	- Requirements change, and the system must adapt to these changes
+	- Goal is to adapting to new requirements easy and straightforward
+	- 
