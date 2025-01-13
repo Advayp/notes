@@ -1,0 +1,11 @@
+- Best display at around 1 meter away from the user
+- Hand can be used as a potential source of input
+	- Other inputs: voice, custom mobile, physical objects, device position (real-time object tracking)
+- Anchor dynamics:
+	- Follow user's head/hand
+	- Fix in the real world
+- Placing UI (near-field for direct interaction, far-field for more experiential content)![[Pasted image 20250111150025.png]]
+- Avoid putting content in the monocular field of view, try to center content in the user's field of view
+- Button sizes:![[Pasted image 20250111150311.png]]
+- Generally work in dark mode, use dark background with bright text
+- 

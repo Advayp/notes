@@ -28,3 +28,5 @@
 - Alignment can cause problems regarding field ordering, and use the least amount of padding necessary
 - External fragmentation is also something to consider here
 
+## Implementing a File of Records
+- 

@@ -1,0 +1,12 @@
+## Standout experiences
+- Interact with the world around the user
+- Connect user to other people - social media aspect
+- Consider practical application that leverage real-world environments
+- Key things to consider:
+	- Is this better for VR or another platform?
+	- Does your Lens isolate the user?
+	- Will your Lens get people out of their seats?
+- Utility seems to be the direction to go, especially in the workforce
+	- Easy to drive use/retention, since it will enhance the job significantly
+	- Direct connection to real-world through utility 
+	- Connection by Spectacles' multiplayer capabilities.
