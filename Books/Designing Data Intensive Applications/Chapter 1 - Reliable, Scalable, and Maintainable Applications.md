@@ -1,4 +1,4 @@
-## Reliability
+ ## Reliability
 - Performs as expected
 - Handles mistakes or unexpected uses
 - Prevents unauthorized access/use
@@ -58,4 +58,4 @@
 - Evolvability: Making change easy
 	- Requirements change, and the system must adapt to these changes
 	- Goal is to adapting to new requirements easy and straightforward
-	- 
+	
