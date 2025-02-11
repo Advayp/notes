@@ -58,4 +58,3 @@
 - Evolvability: Making change easy
 	- Requirements change, and the system must adapt to these changes
 	- Goal is to adapting to new requirements easy and straightforward
-	
