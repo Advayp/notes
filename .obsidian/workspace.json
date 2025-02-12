@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/Designing Data Intensive Applications/Chapter 3 - Storage and Retrieval.md",
+                "file": "Books/Designing Data Intensive Applications/Chapter 4 - Encoding and Evolution.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 3 - Storage and Retrieval"
+              "title": "Chapter 4 - Encoding and Evolution"
             }
           }
         ],
@@ -172,7 +172,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 477.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,10 +187,11 @@
   },
   "active": "80062784f5591ced",
   "lastOpenFiles": [
+    "Books/Designing Data Intensive Applications/Chapter 3 - Storage and Retrieval.md",
+    "Books/Designing Data Intensive Applications/Chapter 4 - Encoding and Evolution.md",
     "Books/Designing Data Intensive Applications/DDIA Notes Directory.md",
     "Books/Designing Data Intensive Applications/Chapter 2 - Data Models and Query Languages.md",
     "Books/Designing Data Intensive Applications/Chapter 1 - Reliable, Scalable, and Maintainable Applications.md",
-    "Books/Designing Data Intensive Applications/Chapter 3 - Storage and Retrieval.md",
     "Books/Database Design and Implementation/Chapter 5 - Transaction Management.md",
     "Books/Database Design and Implementation/Chapter 4 - Memory Management.md",
     "Books/Database Design and Implementation/Chapter 6 - Record Management.md",
@@ -219,7 +220,6 @@
     "UW/CSE 351/Lecture 19 - Memory and Caches IV.md",
     "UW/CSE 351/Lecture 18 - Memory and Caches III.md",
     "UW/CSE 351/Lecture 17 - Memory and Caches 2.md",
-    "UW/CSE 351/Lecture 16 - Memory and Caches I.md",
     "Amazon Interview Preparation",
     "Spice AI Interview Preparation",
     "Pasted image 20241105203730.png",
