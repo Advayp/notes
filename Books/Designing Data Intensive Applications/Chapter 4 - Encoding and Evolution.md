@@ -41,3 +41,32 @@
 	- Design philosophy
 	- Uses URLs for identifying resources and HTTP features for cache control, authentication, and content type negotiation
 	- Associated with microservices
+- RPC (remote procedural calls)
+	- Makes a network request look the same as calling a function or method in your programming language
+	- Few problems with this though
+		- A function call should be predictable and ideally behave completely under your control. RPC doesn't follow this philosophy, as issues can arise from network errors
+		- There's less clarity around why an RPC fails, whether that's because of a timeout or some other network issue -- harder to debug
+		- Latency and execution time of RPC varies greatly
+		- Serialization is a hard requirement, can become complicated with more complex objects
+			- This can also result in a mismatch between types
+
+## Message-Passing Dataflow
+- Async message-passing systems: lie in between RPC and databases systems
+	- Similar to RPC: request (called a message) is delivered with low-latency to some handler
+	- Similar to databases: Message is sent via an intermediary called a message broker
+- Advantages:
+	- Acts as a buffer, improving reliability
+	- Can adjust target based on crashes, ensuring messages are still delivered
+	- Doesn't require sender to know IP address
+	- One message can be sent to multiple recipients
+	- Decouples sender from recipient
+- Main workflow with message brokers:
+	- Sender sends a message to a named queue or topic
+	- The broker delivers that message to all the subscribers of that queue/topic
+	- Messages don't use any format in particular, so they're flexible in this sense
+
+## Distributed Actor Frameworks
+- Manages concurrency in a single process - encapsulates everything in an actor
+- Each actor has local state. Message delivery isn't guaranteed either.
+- Distributed actor frameworks can scale better across multiple nodes
+	- Integrates a message broker and the actor programming model into a single framework
