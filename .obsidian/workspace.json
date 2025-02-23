@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/Designing Data Intensive Applications/Chapter 4 - Encoding and Evolution.md",
+                "file": "Books/Designing Data Intensive Applications/Chapter 5 - Replication.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 4 - Encoding and Evolution"
+              "title": "Chapter 5 - Replication"
             }
           }
         ]
@@ -75,10 +75,28 @@
             }
           }
         ]
+      },
+      {
+        "id": "bda641fbe4dead2a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "20ac8ed9fd42900c",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 268.00418853759766
   },
   "right": {
     "id": "a8c44cef8e5e9e41",
@@ -126,7 +144,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -154,10 +174,26 @@
           }
         ],
         "currentTab": 4
+      },
+      {
+        "id": "c0bf82f029380d9e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3e6898f82eb9e7b3",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 366
+    "width": 333.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,13 +206,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d327941c87db9d89",
+  "active": "eb17efef9b015fa5",
   "lastOpenFiles": [
-    "Leetcode/Dynamic Programming/Leetcode 45 - Jump Game II.md",
+    "SWECC Notes/Leetcode Workshop.md",
+    "Pasted image 20241008174802.png",
+    "Leetcode/Array/Leetcode 274 - H-index.md",
+    "Untitled.md",
+    "Books/Designing Data Intensive Applications/Chapter 2 - Data Models and Query Languages.md",
+    "Books/Designing Data Intensive Applications/Chapter 5 - Replication.md",
+    "Books/Database Design and Implementation/Chapter 3 - Disk and File Management.md",
     "Books/Designing Data Intensive Applications/Chapter 4 - Encoding and Evolution.md",
+    "Leetcode/Dynamic Programming/Leetcode 45 - Jump Game II.md",
     "Books/Designing Data Intensive Applications/Chapter 3 - Storage and Retrieval.md",
     "Books/Designing Data Intensive Applications/DDIA Notes Directory.md",
-    "Books/Designing Data Intensive Applications/Chapter 2 - Data Models and Query Languages.md",
     "Books/Designing Data Intensive Applications/Chapter 1 - Reliable, Scalable, and Maintainable Applications.md",
     "Books/Database Design and Implementation/Chapter 5 - Transaction Management.md",
     "Books/Database Design and Implementation/Chapter 4 - Memory Management.md",
@@ -192,7 +234,6 @@
     "Pasted image 20250111150025.png",
     "Spectacles Accelerator",
     "Amazon Interview Preparation/LP Questions.md",
-    "Books/Database Design and Implementation/Chapter 3 - Disk and File Management.md",
     "Pasted image 20241226201647.png",
     "Books/Database Design and Implementation/Chapter 1 - Database Systems.md",
     "UW/CSE 351/Lecture 23 - Processes I.md",
@@ -201,10 +242,6 @@
     "UW/CSE 351/Lecture 22 - Memory Allocation III.md",
     "UW/CSE 351/Lecture 24 - Processes 2.md",
     "UW/CSE 351/Lecture 25 - Virtual Memory II.md",
-    "UW/CSE 351/Lecture 21 - Memory Allocation 2.md",
-    "UW/CSE 351/Lecture 20 - Memory Allocation.md",
-    "UW/CSE 351/Lecture 19 - Memory and Caches IV.md",
-    "UW/CSE 351/Lecture 18 - Memory and Caches III.md",
     "Amazon Interview Preparation",
     "Spice AI Interview Preparation",
     "Pasted image 20241105203730.png",
@@ -214,7 +251,6 @@
     "Pasted image 20241027134759.png",
     "Pasted image 20241027134745.png",
     "Pasted image 20241026162929.png",
-    "Pasted image 20241026162923.png",
     "Leetcode/Two Pointers",
     "Leetcode/Trees",
     "Leetcode/Linked List"

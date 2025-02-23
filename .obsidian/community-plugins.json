@@ -1,4 +1,8 @@
 [
   "obsidian-git",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "calendar",
+  "code-styler",
+  "ninja-cursor",
+  "obsidian-vimrc-support"
 ]
