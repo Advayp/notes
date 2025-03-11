@@ -96,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.00418853759766
+    "width": 262.50418853759766
   },
   "right": {
     "id": "a8c44cef8e5e9e41",
@@ -206,7 +206,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eb17efef9b015fa5",
+  "active": "d327941c87db9d89",
   "lastOpenFiles": [
     "SWECC Notes/Leetcode Workshop.md",
     "Pasted image 20241008174802.png",

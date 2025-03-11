@@ -1,3 +1,2 @@
 imap jk <Esc>
-set timeoutlen=1000
 set clipboard=unnamed
