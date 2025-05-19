@@ -70,3 +70,5 @@
 - Each actor has local state. Message delivery isn't guaranteed either.
 - Distributed actor frameworks can scale better across multiple nodes
 	- Integrates a message broker and the actor programming model into a single framework
+
+![[Pasted image 20250415233019.png]]

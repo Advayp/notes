@@ -1,9 +1,9 @@
 {
-  "cssTheme": "Obsidianite",
+  "cssTheme": "",
   "accentColor": "",
-  "theme": "obsidian",
-  "baseFontSize": 19,
-  "textFontFamily": "Rubik",
-  "interfaceFontFamily": "Overpass",
+  "theme": "moonstone",
+  "baseFontSize": 16,
+  "textFontFamily": "",
+  "interfaceFontFamily": "",
   "monospaceFontFamily": "Fira Code"
 }

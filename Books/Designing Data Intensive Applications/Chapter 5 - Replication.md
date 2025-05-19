@@ -63,5 +63,44 @@
 		- if a row was deleted, the log contains enough information to uniquely identify the row that was deleted (typically primary key)
 		- if a row was updated, the log contains enough information to identify the row and the values of the updated columns.
 - **Trigger-based replication**
-	- 
+	- Move replication up the application level instead of database level
+	- Can be useful for handling conflicts
+	- Trigger: lets you handle some custom logic that runs when a transaction completes. Logs to some external location, which then distributes to other systems
+	- Pretty flexible, but harder to implement and more prone to bugs
 
+## Problems with Replication Lag
+- Alternate pattern for managing high volume of reads with not that many writes:
+	- Have many followers, and distribute across those followers
+- This is called read-scaling architecture
+	- Works with async replication only, as sync is too blocking given the high volume of reads
+	- Though, followers can fall behind at times, but will eventually catch up.
+	- This is known as **eventual consistency**
+- **Replication Lag**: How long it takes for a follower to reflect a leader's changes
+
+
+### Reading Your Own Writes
+- Writes are sent to leader, and followers take time to process writes. 
+- So, after a write, a user may think that their data has been lost, which is problematic
+- **Read-after-write consistency**: User's data is always immediately updated for *themselves*. No guarantee about other users immediately.
+- How to implement
+	- Read directly from the leader, after the write was performed. Need to predict what might've been modified by a user. 
+	- If most things are editable, you can read from the leader for a certain period of time, or avoid reading from stale replicas by keeping track of replication lag
+
+### Monotonic Reads
+- When reading from two replicas subsequently with the second having more replication lag, it is possible for the user to see things happening backwards in time.
+	- This is because the second replica is stale
+- Implementing monotonic reads
+	- Ensure users only read from one replica (by using a hash function)
+
+### Consistent Prefix Reads
+- Guarantees that writes made in a certain order are reader in the same order
+- Common to sharded databases, because some partitions could be replicated slower than others
+
+## Multi-Leader Replication
+- Exactly what the name implies, more than one node can handle writes
+- Introduced because single-leader replication leads to issues when the leader is down, and can be overloaded with a high volume of writes
+- AKA master-master or active/active replication
+- **Use cases**:
+	- Multi-datacenter operation. Datacenters distributed across the world to be closer to users, each can have its own single-leader replication system. Writes are processed by closest datacenter and replicated async to other ones
+- Main problem is conflict resolution. Same portion of data might be modified in two different data centers, need to have some way of resolving this conflict
+- 
