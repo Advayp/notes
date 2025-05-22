@@ -7,3 +7,10 @@
 - **Span**: Running time of parallel code as the number of processors approaches infinity
 - **Speedup**: $T_1/T_p$ 
 - **Parallelism**: $\frac{T_1}{T_{\infty}}$
+
+## Amdahl's Law
+$$
+\frac{T_1}{T_p} \leq \frac{1}{S + \frac{1 - S}{P}}
+$$
+- S is the portion of the code that must be sequential
+- P is the number of processors

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UW/CSE 331/Abstraction.md",
+                "file": "UW/CSE 332/Concurrency I.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Abstraction"
+              "title": "Concurrency I"
             }
           }
         ]
@@ -209,6 +209,7 @@
   "active": "d327941c87db9d89",
   "lastOpenFiles": [
     "UW/CSE 332/Parallelism II.md",
+    "UW/CSE 332/Concurrency I.md",
     "UW/CSE 331/Abstraction.md",
     "SWECC Notes/SWE Onboarding.md",
     "UW/CSE 332/Parallelism I.md",
@@ -237,7 +238,6 @@
     "Untitled.md",
     "Books/Designing Data Intensive Applications/Chapter 2 - Data Models and Query Languages.md",
     "Books/Database Design and Implementation/Chapter 3 - Disk and File Management.md",
-    "Leetcode/Dynamic Programming/Leetcode 45 - Jump Game II.md",
     "Books/Designing Data Intensive Applications",
     "Pasted image 20250111150311.png",
     "Pasted image 20250111150025.png",
