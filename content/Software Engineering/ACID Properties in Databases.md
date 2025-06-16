@@ -1,9 +1,9 @@
 ---
 title: ACID Properties in Databases
 tags:
-	- acid
-	- transactions
-	- databases
+  - acid
+  - transactions
+  - databases
 ---
 
 - Video Link: [(57) ACID Properties in Databases With Examples](https://www.youtube.com/watch?v=GAe5oB742dw)
