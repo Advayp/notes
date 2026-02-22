@@ -1,0 +1,6 @@
+- Use thread pools to scale concurrency and avoid creating a lot of threads
+	- No point having many more threads than the number of cores
+	- Can't context-switch within work, so every piece of work is run to completion
+- To eliminate contention on a shared work queue, give each thread its own work queue
+	- Load balance / work-steal to maintain high utilization
+- 
