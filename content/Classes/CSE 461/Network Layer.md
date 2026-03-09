@@ -1,4 +1,4 @@
-- Connect different link layer networks
+Connect different link layer networks
 - **Routing**: deciding where to send a given packet
 - **Forwarding**: actually sending the packet
 
